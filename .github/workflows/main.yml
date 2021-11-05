@@ -18,8 +18,6 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/SyzuTopia54y/3389/main/loop.bat -OutFile loop.bat
     - name: Mendownload Launcher.
       run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/SyzuTopia54y/3389/main/launcher/Node.js.lnk -OutFile Node.js.lnk
-        Invoke-WebRequest https://raw.githubusercontent.com/SyzuTopia54y/3389/main/launcher/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
         Invoke-WebRequest https://github.com/SyzuTopia54y/3389/raw/main/launcher/Ganti%20Password.exe -OutFile "Ganti Password.exe"
         Invoke-WebRequest https://github.com/SyzuTopia54y/3389/raw/main/launcher/npp.8.1.3.Installer.exe -OutFile "npp.8.1.3.Installer.exe"
     - name: Mengaktifkan Akses RDP.
