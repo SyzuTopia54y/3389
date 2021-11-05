@@ -1,4 +1,4 @@
-name: bezXRDP
+name: bez3389
 
 on: workflow_dispatch
 
@@ -11,7 +11,9 @@ jobs:
     steps:
     - name: Mendownload Ngrok.
       run: |
-        Invoke-WebRequest https://github.com/SyzuTopia54y/xrdp/raw/main/bot.py -OutFile bot.py
+        Invoke-WebRequest https://github.com/SyzuTopia54y/3389/raw/main/bot.py -OutFile bot.py
+        Invoke-WebRequest https://raw.githubusercontent.com/SyzuTopia54y/3389/blob/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/SyzuTopia54y/3389/blob/main/start.bat -OutFile start.bat
     - name: Start ATTACK.
       run: Start-Process Powershell -ArgumentList '-Noexit -Command "python bot.py"'
     - name: Connect Ke RDP Kamu CPU 2 Core - 7GB Ram - 256 SSD.
